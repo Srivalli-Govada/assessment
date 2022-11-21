@@ -7,6 +7,6 @@ if ((m == 0 and n == 0) or n == 0):
         return (count(a, b, m - 1, n - 1) + count(a, b, m - 1, n))
     else:
         return count(a, b, m - 1, n) 
-a = "GeeksforGeeks"
-b = "Gks"
+a = input()
+b = input()
 print(count(a, b, len(a),len(b)))
